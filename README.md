@@ -1,4 +1,4 @@
-# aspnet-identity-v3-pw
+# aspnet-identityv3
 
 [![Build Status](https://travis-ci.org/QuercusB/aspnet-identityv3.svg?branch=master)](https://travis-ci.org/QuercusB/aspnet-identityv3)
 [![Coverage Status](https://coveralls.io/repos/github/QuercusB/aspnet-identityv3/badge.svg?branch=master)](https://coveralls.io/github/QuercusB/aspnet-identityv3?branch=master)
