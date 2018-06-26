@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Typescript library for checking ASP.NET Identity V2 & V3 password",
   "main": "dist/index.js",
-  "types" : "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "author": {
     "name": "Pavel Borisov",
     "email": "pavel.borisov@quercus.ru"
   },
   "scripts": {
     "test": "mocha -R mocha-multi --reporter-options spec=-,mocha-notifier-reporter=- dist/test",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha dist/test/*.js - - -R spec",
     "build": "tsc",
     "build-watch": "tsc -watch",
     "test-watch": "mocha --watch -R mocha-multi --reporter-options spec=-,mocha-notifier-reporter=- dist/test"
@@ -33,6 +34,8 @@
     "@types/mocha": "^5.2.3",
     "@types/node": "^10.3.6",
     "chai": "^4.1.2",
+    "coveralls": "^3.0.1",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "mocha-multi": "^1.0.1",
     "mocha-notifier-reporter": "^0.1.2",
