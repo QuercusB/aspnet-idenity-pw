@@ -1,2 +1,4 @@
 import { AspNetIdentityHasher } from "./lib/AspNetIdentityHasher";
-export default AspNetIdentityHasher;
+export { AspNetIdentityHasher } from "./lib/AspNetIdentityHasher";
+declare const _default: AspNetIdentityHasher;
+export default _default;
