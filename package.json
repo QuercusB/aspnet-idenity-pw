@@ -1,0 +1,42 @@
+{
+  "name": "aspnet-idenity-v3-pw",
+  "version": "1.0.0",
+  "description": "Typescript library for checking ASP.NET Identity V2 & V3 password",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "author": {
+    "name": "Pavel Borisov",
+    "email": "pavel.borisov@quercus.ru"
+  },
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options spec=-,mocha-notifier-reporter=- dist/test",
+    "build": "tsc",
+    "build-watch": "tsc -watch",
+    "test-watch": "mocha --watch -R mocha-multi --reporter-options spec=-,mocha-notifier-reporter=- dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuercusB/aspnet-idenity-v3-pw.git"
+  },
+  "keywords": [
+    "ASP.NET",
+    "Identity",
+    "Password"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuercusB/aspnet-idenity-v3-pw/issues"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.3",
+    "@types/node": "^10.3.6",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "mocha-multi": "^1.0.1",
+    "mocha-notifier-reporter": "^0.1.2",
+    "testdouble": "^3.8.1",
+    "typescript": "^2.9.2"
+  }
+}
