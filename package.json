@@ -1,6 +1,6 @@
 {
   "name": "aspnet-identityv3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript library for checking ASP.NET Identity V2 & V3 password",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
